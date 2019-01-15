@@ -24,11 +24,10 @@ html, body {
   margin: 0;
   padding: 0;
 }
-section {
-  box-shadow: 0 35px 50px rgba( 0, 0, 0, 0.2);
+#overview section {
   transition: 0.3s;
 }
-section:hover {
+#overview section:hover {
   transform: scale(1.03);
   box-shadow: 0 25px 20px rgba( 0, 0, 0, 0.2);
 }
@@ -43,6 +42,26 @@ header .mdl-layout__header-row:nth-child(2) {
 }
 header .mdl-layout__header-row:nth-child(3) {
   background: url(../images/brick.jpg);
+}
+#services .section--center {
+  padding: 30px !important;
+}
+.mdl-card__supporting-text .section__circle-container .section__circle-container__circle {
+  background-size: 200% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.mdl-card__supporting-text .section__circle-container:nth-child(2) .section__circle-container__circle {
+  background: url(../images/a-deck.jpg);
+}
+.mdl-card__supporting-text .section__circle-container:nth-child(4) .section__circle-container__circle {
+  background: url(../images/bathroom.jpg);
+}
+.mdl-card__supporting-text .section__circle-container:nth-child(6) .section__circle-container__circle {
+  background: url(../images/kitchen.jpg);
+}
+.section__text h5 {
+  font-weight: bold;
 }
 .mdl-cell {
   overflow: hidden;
